@@ -1,0 +1,49 @@
+# Игнорировать файлы сборки и бинарные файлы
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорировать файлы IDE и редакторов
+.vs/
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# Игнорировать зависимости (если не используются submodules)
+packages/
+node_modules/
+bower_components/
+
+# Игнорировать настройки локального окружения
+appsettings.Development.json
+launchSettings.json
+
+# Игнорировать выходные файлы сборки (если используется publish)
+out/
+publish/
+wwwroot/dist/  # если используется фронтенд-сборка (например, Webpack)
+
+# Игнорировать временные файлы
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Игнорировать файлы, специфичные для Blazor WASM (если используется)
+*.wasm
+*.blazor
+
+# Игнорировать локальную базу данных (если используется SQLite или LocalDB)
+*.db
+*.mdf
+*.ldf
+
+# Игнорировать файлы резервных копий
+*.backup
